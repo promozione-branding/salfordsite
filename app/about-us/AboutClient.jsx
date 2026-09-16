@@ -163,7 +163,7 @@ const page = () => {
           <div className="relative w-full h-[400px] md:h-[500px] rounded-md  overflow-hidden ">
             <Image
               src="/about/about1.webp" // Replace with your actual image
-              alt="Salford Titanium Dioxide Manufacturing"
+              alt="Titanium Dioxide Manufacturer in Germany"
               fill
               className="object-cover "
             />
@@ -278,7 +278,7 @@ const page = () => {
                       <div className="relative w-full h-[500px] rounded-xl overflow-hidden shadow-xl">
                         <Image
                           src={src}
-                          alt={`Global Image ${index + 1}`}
+                          alt="Titanium Dioxide Manufacturers"
                           fill
                           className="object-cover"
                         />

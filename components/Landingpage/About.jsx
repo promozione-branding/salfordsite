@@ -16,7 +16,7 @@ export default function AboutUs() {
         <div className="flex justify-center">
           <Image
             src="/whychoose.webp"
-            alt="Why Choose Us"
+            alt="Titanium Dioxide Manufacturers"
             width={500}
             height={500}
             className="object-cover rounded"

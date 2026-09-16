@@ -114,7 +114,7 @@ export default function WhyChooseUs() {
             <div className="relative z-10 w-full max-w-[600px] sm:max-w-[500px] md:max-w-[520px] overflow-hidden rounded-xl shadow-2xl group">
               <Image
                 src="/pvc-resin-factory.webp"
-                alt="Plant"
+                alt="Titanium Dioxide Importer"
                 width={960}
                 height={540}
                 className="object-cover w-full h-[250px] sm:h-[320px] md:h-[380px] lg:h-[450px] transition-transform duration-700 group-hover:scale-105"

@@ -8,7 +8,7 @@ const tabs = [
   {
     id: 1,
     mainTitle: "Driving ",
-    subTitle: "The World Industrial Growth is on the Move",
+    subTitle: "Text—Titanium Dioxide Manufacturers",
     description: `Salford, a reliable manufacturer of Titanium Dioxide, is committed to supporting the rapidly growing industrial landscape through reliable access to premium titanium dioxide (TiO₂). As a global manufacturing partner, we understand the specific challenges and opportunities of international markets.
 The main objective of the company is to provide the TiO₂ industry with a steady supply of highly graded TiO₂ in order to help them meet international standards, improve product quality, and remain competitive in a constantly changing economy.
 The company aims to provide industries worldwide with added value through expertise, service, and reliability, such as:`,
@@ -23,7 +23,7 @@ The company aims to provide industries worldwide with added value through expert
   {
     id: 2,
     mainTitle: " Sustainability  ",
-    subTitle: "Commitment to Sustainability",
+    subTitle: "Titanium Dioxide Importer",
     description: `At Salford, the company makes responsible business practices a necessity for gaining and maintaining trust and achieving long-term growth. A commitment to environmental protection, occupational safety, and international compliance lies at the heart of the company’s titanium dioxide (TiO₂) production and distribution processes as a global <strong>Titanium Dioxide Manufacturer</strong> and production partner.
 Environmental sustainability is not only a policy but also a vital part of our working methods in every sector we operate in.`,
     points: [
@@ -37,7 +37,7 @@ Environmental sustainability is not only a policy but also a vital part of our w
   {
     id: 3,
     mainTitle: "Commitment ",
-    subTitle: "Building Long-Term Partnerships",
+    subTitle: "Titanium Dioxide Manufacturer in Germany",
     description: `At Salford, our purpose is not just to offer titanium dioxide (TiO₂) but also to establish and nurture long-term relationships with industries worldwide. As a reliable <strong>Titanium Dioxide Manufacturer</strong>, we believe that trust, dependability, and mutual advancement form the foundation of strong and enduring partnerships.
 By working hand in hand with our customers, we not only help them overcome market challenges but also prepare them for the future with a consistent supply of high-quality TiO₂ for their operations.
 We strengthen these relationships through key actions such as:`,

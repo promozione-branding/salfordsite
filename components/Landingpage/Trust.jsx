@@ -16,7 +16,7 @@ export default function TitaniumDioxideSection() {
         <div className="relative w-full h-[380px] lg:h-[520px] overflow-hidden rounded-lg shadow-md">
           <Image
             src="/trust.jpg" // Replace with your actual image path
-            alt="Titanium Dioxide Manufacturing"
+            alt="Titanium Dioxide Manufacturer in Germany"
             fill
             className="object-cover "
           />

@@ -33,7 +33,7 @@ const Footer = () => {
               <div className="p-[2px] rounded-lg bg-gradient-to-tr from-[#F5B041] to-[#D33F00] inline-block">
                 <Image
                   src="/logo.webp"
-                  alt="Salford Logo"
+                  alt="Salford Titanium Dioxide"
                   width={120}
                   height={60}
                   className="rounded-md brightness-110"

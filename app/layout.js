@@ -18,10 +18,56 @@ export const metadata = {
   },
 };
 
+
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <link rel="canonical" href="https://salfordworld.com/" />
+
+       <Script
+          id="salford-world-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebSite",
+                "@id": "https://salfordworld.com/#website",
+                "url": "https://salfordworld.com/",
+                "name": "Salford World",
+                "description":
+                  "Salford World is a trusted Titanium Dioxide Importer offering quality TiO₂ products and reliable solutions for diverse industrial applications.",
+                "publisher": {
+                  "@id": "https://salfordworld.com/#organization",
+                },
+                "inLanguage": "en-IN",
+              },
+              {
+                "@type": "Organization",
+                "@id": "https://salfordworld.com/#organization",
+                "name": "Salford World",
+                "url": "https://salfordworld.com/",
+                "description":
+                  "Salford World is a Titanium Dioxide Importer and supplier providing quality titanium dioxide products and reliable sourcing solutions for various industries.",
+                "knowsAbout": [
+                  "Titanium Dioxide",
+                  "Titanium Dioxide Importer",
+                  "Titanium Dioxide Supplier",
+                  "TiO₂",
+                  "Industrial Chemicals",
+                  "Titanium Dioxide Distributor",
+                  "Titanium Dioxide Manufacturer",
+                  "Titanium Dioxide Manufacturers",
+                ],
+              },
+            ],
+          })}
+        </Script>
         {/* Google Tag Manager */}
         <Script id="gtm" strategy="afterInteractive">
           {`

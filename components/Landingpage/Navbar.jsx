@@ -23,7 +23,7 @@ export default function Navbar() {
     },
     { label: "Industries", link: "/industries" },
     { label: "Applications", link: "/applications" },
-    { label: "News & Events", link: "/news-events" },  
+    { label: "News & Events", link: "/news-events" },
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className="flex items-center flex-shrink-0">
             <Image
               src="/logo.webp"
-              alt="Logo"
+              alt="Salford Titanium Dioxide"
               width={90}
               height={65}
               className="rounded-2xl"
@@ -92,7 +92,10 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden lg:flex items-center gap-4">
-          <button onClick={() => setIsFormOpen(true)} className="relative px-6 py-3 rounded-full font-semibold bg-gradient-to-r from-[#8AB0C2] to-[#0082C8] text-white shadow-lg overflow-hidden group hover:scale-105 transition-transform duration-300">
+          <button
+            onClick={() => setIsFormOpen(true)}
+            className="relative px-6 py-3 rounded-full font-semibold bg-gradient-to-r from-[#8AB0C2] to-[#0082C8] text-white shadow-lg overflow-hidden group hover:scale-105 transition-transform duration-300"
+          >
             <span className="absolute inset-0 bg-white opacity-10 -translate-x-full group-hover:translate-x-0 transform transition-transform duration-500"></span>
             Request a Quote
           </button>
@@ -126,7 +129,10 @@ export default function Navbar() {
               </button>
             </div>
 
-            <nav onClick={() => setMobileOpen(false)} className="flex flex-col gap-4">
+            <nav
+              onClick={() => setMobileOpen(false)}
+              className="flex flex-col gap-4"
+            >
               {menuItems.map((item, idx) => (
                 <div key={idx}>
                   <Link
@@ -158,12 +164,13 @@ export default function Navbar() {
               ))}
 
               <div className="mt-6 flex flex-col gap-3">
-            
-
- <button onClick={() => setIsFormOpen(true)} className="relative px-6 py-3 rounded-full font-semibold bg-gradient-to-r from-[#8AB0C2] to-[#0082C8] text-white shadow-lg overflow-hidden group hover:scale-105 transition-transform duration-300">
-            <span className="absolute inset-0 bg-white opacity-10 -translate-x-full group-hover:translate-x-0 transform transition-transform duration-500"></span>
-            Request a Quote
-          </button>
+                <button
+                  onClick={() => setIsFormOpen(true)}
+                  className="relative px-6 py-3 rounded-full font-semibold bg-gradient-to-r from-[#8AB0C2] to-[#0082C8] text-white shadow-lg overflow-hidden group hover:scale-105 transition-transform duration-300"
+                >
+                  <span className="absolute inset-0 bg-white opacity-10 -translate-x-full group-hover:translate-x-0 transform transition-transform duration-500"></span>
+                  Request a Quote
+                </button>
 
                 <Link
                   href="/contact-us"
@@ -207,7 +214,7 @@ export default function Navbar() {
       `}</style>
 
       {/* Request Quote Form Modal */}
-   {/* Contact Form */}
+      {/* Contact Form */}
       {isFormOpen && (
         <Popup isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
       )}

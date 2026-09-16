@@ -139,10 +139,10 @@ export default function ProductsPage() {
 
       <div className="text-center bg-[#D4E6FA] text-xs sm:text-sm text-black py-2">
         <p>
-          Website Designed By Promozione Branding Pvt. Ltd.{" "}
+          Website Designed By Inquiry Bazaar Pvt. Ltd.{" "}
           <a
             className="text-blue-400 underline"
-            href="https://www.promozionebranding.com"
+            href="https://inquirybazaar.com/f"
             target="_blank"
             rel="noopener noreferrer"
           >
