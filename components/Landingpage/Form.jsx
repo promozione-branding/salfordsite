@@ -19,11 +19,12 @@ const Form = () => {
     setStatus("Sending...");
     setLoading(true);
     try {
+      const webisteUrl = window.location.hostname + window.location.pathname;
       const formData = {
-        platform: "Salford Landing page",
+        platform: webisteUrl || "Salford Landing page",
         platformEmail: "sales@aanyaenterprise.com",
-                supplierToken:"6a19599b79a7cd6dff26a4c5",
-        
+        supplierToken: "6a19599b79a7cd6dff26a4c5",
+
         name,
         email,
         place: country,
@@ -180,13 +181,12 @@ const Form = () => {
 
       {status && (
         <p
-          className={`text-center mt-4 text-sm font-medium p-3 rounded-lg ${
-            status.startsWith("✅")
+          className={`text-center mt-4 text-sm font-medium p-3 rounded-lg ${status.startsWith("✅")
               ? "bg-green-100 text-green-800"
               : status.startsWith("❌")
                 ? "bg-red-100 text-red-800"
                 : "bg-yellow-100 text-yellow-800"
-          }`}
+            }`}
         >
           {status}
         </p>

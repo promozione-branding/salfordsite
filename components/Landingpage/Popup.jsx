@@ -52,11 +52,10 @@ export default function ContactForm({ isOpen, onClose }) {
       // STEP 2 → VERIFY OTP + SUBMIT FORM
 
       setStatus("Submitting form...");
-
+      const webisteUrl = window.location.hostname + window.location.pathname;
       const formData = {
-        platform: "Salford Landing page",
-                supplierToken:"6a19599b79a7cd6dff26a4c5",
-
+        platform: webisteUrl || "Salford Landing page",
+        supplierToken: "6a19599b79a7cd6dff26a4c5",
         platformEmail: "sales@aanyaenterprise.com",
         name,
         email,

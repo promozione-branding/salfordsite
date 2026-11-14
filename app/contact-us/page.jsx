@@ -83,10 +83,10 @@ const Page = () => {
       // setOtpVerified(true);
 
       setStatus("Submitting form...");
-
+      const webisteUrl = window.location.hostname + window.location.pathname;
       const formData = {
-        platform: "Contact Us Page",
-        supplierToken:"6a19599b79a7cd6dff26a4c5",
+        platform: webisteUrl || "Salford Contact Us Page",
+        supplierToken: "6a19599b79a7cd6dff26a4c5",
         platformEmail: "sales@aanyaenterprise.com",
         name: `${firstName} ${lastName}`,
         email,
@@ -240,11 +240,10 @@ const Page = () => {
                   )} */}
                   {status && (
                     <p
-                      className={`text-center text-sm font-medium p-3 rounded-lg ${
-                        status.startsWith("✅")
-                          ? " text-green-800"
-                          : " text-red-800"
-                      }`}
+                      className={`text-center text-sm font-medium p-3 rounded-lg ${status.startsWith("✅")
+                        ? " text-green-800"
+                        : " text-red-800"
+                        }`}
                     >
                       {status}
                     </p>
